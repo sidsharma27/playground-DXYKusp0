@@ -1,0 +1,14 @@
+title : Swift template
+plan:
+  - title: Swift on Tech.io
+    statement: markdowns/welcome.md
+#  - title: Another Page
+#    statement: markdowns/another-page.md
+
+# Settings for your programming projects and the associated Docker images
+projects:
+  first-project:
+    root: /swift-template
+    runner:
+      name: swift
+      version: 3.1.0
